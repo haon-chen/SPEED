@@ -15,8 +15,11 @@ Use our [embedding model](https://huggingface.co/Haon-Chen/speed-embedding-7b-in
 
 ## Abstract
 
+<img width="665" alt="introduction" src="https://github.com/user-attachments/assets/2d0c34f3-07d1-4d49-bacf-af19fd9722be">
+
 Synthetic data generation has become an increasingly popular way of training models without the need for large, manually labeled datasets. For tasks like text embedding, synthetic data offers diverse and scalable training examples, significantly reducing the cost of human annotation. However, most current approaches rely heavily on proprietary models like GPT-4, which are expensive and inefficient for generating large-scale embedding data. In this paper, we introduce **SPEED**, a framework that aligns open-source small models (8B) to efficiently generate large-scale synthetic embedding data. Through supervised fine-tuning, preference optimization, and self-improvement, **SPEED** enables small open-source models to produce high-quality data.  Remarkably, **SPEED** uses only less than 1/10 of the GPT API calls, outperforming the state-of-the-art embedding model E5$_\text{mistral}$ when both are trained solely on their synthetic data. Using this efficient generator, we conduct a comprehensive study on how various factors within the alignment pipeline impact data quality and reveal the scaling law for synthetic embedding data.
 
+<img width="1353" alt="framework" src="https://github.com/user-attachments/assets/a0a49635-5a0b-4c1e-9e5a-504e512e7cd2">
 
 ## Citation
 Please kindly cite our paper if helps your research:
