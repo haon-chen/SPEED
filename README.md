@@ -9,7 +9,7 @@
 
 ## Usage
 
-Use the [tryout script](https://huggingface.co/Haon-Chen/speed-synthesis-7b-senior) we provide and the above [generators](https://huggingface.co/Haon-Chen/speed-synthesis-7b-senior) to synthesize your own embedding data!
+Use the [tryout script](https://github.com/haon-chen/SPEED/blob/main/senior_model_tryout.py) we provide and the above [generators](https://huggingface.co/Haon-Chen/speed-synthesis-7b-senior) to synthesize your own embedding data!
 
 Use our [embedding model](https://huggingface.co/Haon-Chen/speed-embedding-7b-instruct) to perform all kinds of embedding tasks!
 
